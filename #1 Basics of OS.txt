@@ -1,0 +1,116 @@
+Experiment – 1
+Aim – Basics of OS.
+Introduction:
+An operating system acts as an intermediary between the user of a computer and
+computer hardware. The purpose of an operating system is to provide an
+environment in which a user can execute programs conveniently and efficiently.
+An operating system is software that manages computer hardware. The hardware
+must provide appropriate mechanisms to ensure the correct operation of the
+computer system and to prevent user programs from interfering with the proper
+operation of the system.
+An operating system is concerned with the allocation of resources and services, such
+as memory, processors, devices, and information.
+Tasks of OS:
+Memory Management -
+The operating system manages the Primary Memory or Main Memory. Main memory
+is fast storage and it can be accessed directly by the CPU. For a program to be
+executed, it should be first loaded in the main memory. An operating system
+manages the allocation and deallocation of the memory to various processes.
+Processor Management -
+In a multi-programming environment, the OS decides the order in which processes
+have access to the processor, and how much processing time each process has. This
+function of OS is called process scheduling.
+An operating system manages the processors work by allocating various jobs to it
+and ensuring that each process receives enough time from the processor to function
+properly.
+Device Management -
+An OS manages device communication via its respective drivers. It performs the
+following activities for device management. Keeps track of all devices connected to
+the system. designates a program responsible for every device known as the
+Input/Output controller.
+A file system is organized into directories for efficient or easy navigation and usage.
+An OS keeps track of information regarding the creation, deletion, transfer, copy, and
+storage of files in an organized way.
+File Management -
+A file system is organized into directories for efficient or easy navigation and usage.
+These directories may contain other directories and other files.
+An Operating System carries out the following file management activities. It keeps
+track of where information is stored, user access settings, the status of every file, and
+more. These facilities are collectively known as the file system.
+Booting the Computer -
+The process of starting or restarting the computer is known as booting. If the
+computer is switched off completely and if turned on then it is called cold booting.
+Warm booting is a process of using the operating system to restart the computer.
+TYPES OF OS:
+1. Batch Operating System -
+This type of operating system does not interact with the computer directly. There is
+an operator which takes similar jobs having the same requirement and groups them
+into batches. It is the responsibility of the operator to sort jobs with similar needs.
+2. Multi-Programming Operating System -
+Multiprogramming operating system can be simply illustrated as more than one
+program is present in the main memory and any one of them can be kept in
+execution. This is basically used for better execution of resources.
+3. Multi-Processing Operating System -
+Multiprocessing operating system is a type of Operating System in which more than
+one CPU is used for the execution of resources. It betters the throughput of the
+System.
+4. Multi-Tasking Operating System –
+Multitasking Operating System is simply a multiprogramming Operating System with
+having facility of a Round-Robin Scheduling Algorithm. It can run multiple programs
+simultaneously.
+5. Time-Sharing Operating Systems -
+Each task is given some time to execute so that all the tasks work smoothly. Each user
+gets the time of the CPU as they use a single system. These systems are also known
+as Multitasking Systems.
+6. Distributed Operating System -
+These types of operating system is a recent advancement in the world of computer
+technology and are being widely accepted all over the world and, that too, at a great
+pace. Various autonomous interconnected computers communicate with each other
+using a shared communication network independent systems possess their own
+memory unit and CPU.
+7. Network Operating System -
+These systems run on a server and provide the capability to manage data, users,
+groups, security, applications, and other networking functions. These types of
+operating systems allow shared access to files, printers, security, applications, and
+other networking functions over a small private network.
+8. Real-Time Operating System -
+These types of OSs serve real-time systems. The time interval required To process
+and respond to inputs is very small. This time interval is called response time. Real
+time systems are used when there are times requirements that are very strict like
+missile systems, robots, etc.
+ARCHITECTURE OF LAYERED OS:
+This type of operating system was created as an improvement over the early
+monolithic systems. The operating system is split into various layers in the layered
+operating system, and each of the layers has different functionalities.
+A particular layer can access all the layers present below it, but it cannot access
+them. That is, layern-1 can access all the layers from n-2 to 0, but it cannot access the
+nth Layer 0 deals with allocating the processes, switching between processes when
+interruptions occur or the timer expires.
+There are six layers in the layered operating system. Layered Structure of Operating
+System Hardware: This layer interacts with the system hardware and coordinates with
+all the peripheral devices used, such as a printer, mouse, keyboard, scanner, etc.
+These types of hardware devices are managed in the hardware layer.
+• CPU Scheduling: This layer deals with scheduling the processes for the CPU.
+Many scheduling queues are used to handle processes. When the processes
+enter the system, they are put into the job queue. The processes that are ready
+to execute in the main memory are kept in the ready queue. This layer is
+responsible for managing how many processes will be allocated to the CPU and
+how many will stay out of the CPU.
+• Memory Management: Memory management deals with memory and moving
+processes from disk to primary memory for execution and back again. This is
+handled by the third layer of the operating system. All memory management is
+associated with this layer. There are various types of memories in the computer
+like RAM, ROM.
+• Process Management: This layer is responsible for managing the processes, i.e.,
+assigning the processor to a process and deciding how many processes will
+stay in the waiting schedule. The priority of the processes is also managed in
+this layer. The different algorithms used for process scheduling are FCFS (first
+come, first served), SJF (shortest job first), priority scheduling, round-robin
+scheduling, etc.
+• I/O Buffer: I/O devices are very important in computer systems. They provide
+users with the means of interacting with the system. This layer handles the
+buffers for the I/O devices and makes sure that they work correctly.
+• User Programs: This is the highest layer in the layered operating system. This
+layer deals with the many user programs and applications that run in an
+operating system, such as word processors, games, browsers, etc. You can also
+call this an application layer because it is concerned with application programs.
